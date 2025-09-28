@@ -1,0 +1,34 @@
+log_files:
+  - path: test_logs/test.log
+    format: default
+
+enable_syslog: true
+syslog:
+  host: 127.0.0.1
+  port: 5140
+
+log_format: default
+alert_threshold: 1  # Lower to 1 for testing
+
+rules:
+  - name: failed_login
+    pattern: "Failed login"  # Make sure this matches the test log content
+    severity: high
+  - name: warning_event
+    pattern: "WARNING"  # This should match the log level in the test logs
+    severity: medium
+
+database:
+  type: postgresql
+  host: localhost
+  port: 5432
+  name: siemdb
+  user: siemuser
+  password: siempassword
+
+polling_interval: 30  # seconds
+
+webhook:
+  url: https://hooks.slack.com/services/XXXX/YYYY/ZZZZ
+  headers:
+    Content-Type: application/json

